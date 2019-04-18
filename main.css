@@ -1,0 +1,50 @@
+.block {
+    height: auto;
+    width: 85%;
+}
+
+.btn {
+    cursor: pointer;
+    user-select: none;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dots, .mover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mover {
+    width: 300%;
+    list-style: none;
+    transition: 1s ease-in-out;
+}
+
+.mover ul img {
+    width: 500px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: grey;
+    list-style-type: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.dot:last-child {
+    margin-right: 0;
+}
+
+.wrap {
+    width: 500px;
+    overflow: hidden;
+}
